@@ -165,13 +165,12 @@ body {
 	text-decoration: none;
 	position: absolute;
 	right: 2%;
-	margin-top: 23%;
+	margin-top: 90%;
 	flex-direction: column;
 	display: flex;
 	text-align: right;
 	font-size: 1vw;
 	width: 100%;
-	height: 10vh;
 }
  a{ 
  	color: white;
