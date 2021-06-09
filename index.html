@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  </script>
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<title>OG HVHer</title>
+</head>
+<body>
+	<iframe src="images/kal1.mp3" allow="autoplay" style="display:none" id="iframeAudio"> </iframe>
+	<video autoplay loop muted="" class="bgvideo" id="bgvideo">
+   <source src="images/kal.webm" type="video/webm"></source>
+  </video>
+  </script>
+  <script type="text/javascript">
+  	function soundClick() {
+  var audio = new Audio(); // Создаём новый элемент Audio
+  audio.src = 'images/hit.wav'; // Указываем путь к звуку "клика"
+  audio.autoplay = true; // Автоматически запускаем
+}
+  </script>
+<script type="text/javascript">
+		/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<script type="text/javascript">
+		/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction1() {
+    document.getElementById("myDropdown1").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn1')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content1");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+	<div class="main_block">
+		<img class="main_photo" src="images/Reck.png" alt="Igor_lox">
+		<p class="area">Reckless</p>
+		<p>Backup: Raiterrr, sheezy, fedos, souija, katana, uwublasters.</p>
+		<div class="all_1">
+			<div class="all">
+				<div class="dropdown" onclick="soundClick()">
+		  			<button onclick="myFunction()" class="dropbtn">Social</button>
+		  			<div id="myDropdown" class="dropdown-content">
+		    			<a href="https://vk.com/pdesync" target="_blank">VK</a>
+		   				<a href="https://www.youtube.com/channel/UCVcP6RZyq2Wu8KHND-TE6FQ" target="_blank">Youtube</a>
+		    			<a href="https://steamcommunity.com/id/framecount" target="_blank">Steam</a>
+					    <a href="https://gamesense.pub/forums/profile.php?id=3536" target="_blank">Gamesense</a>
+					    <a href="https://onetap.su/members/reckless.9917/" target="_blank">Onetap.su</a>
+		 		 </div>
+		 		</div>
+		  		<div class="dropdown1" onclick="soundClick()">
+		  			<button onclick="myFunction1()" class="dropbtn1">Discord</button>
+		  			<div id="myDropdown1" class="dropdown-content1">
+		    			<a href="#" target="_blank">Reckless#3549</a>
+		  			</div>
+				</div>
+			</div>
+		</div>
+		<div class="podval">
+			<p>🐽Powered by Piga🐽</p>
+			<p><a href="mailto:piga-webmaster@yandex.ru"> Own mail prusov-webmaster@yandex.ru</a></p>
+		</div>	
+	</div>
+</body>
+</html>
