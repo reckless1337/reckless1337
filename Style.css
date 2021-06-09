@@ -32,6 +32,7 @@ body {
 }
 /* Dropdown Button */
 .dropbtn {
+		font-family: Indie Flower;
 	-webkit-box-shadow:
 		0 0 10px rgba(255,255,255,.6),
 		inset 0 0 10px rgba(255,255,255,1);
@@ -181,7 +182,6 @@ body {
 
 body {
  background: #111;
- font-family: "Open Sans",  Impact;
 }
 
 .area {
